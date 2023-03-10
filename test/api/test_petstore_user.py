@@ -126,8 +126,9 @@ def testar_excluir_usuario():
             assert corpo_da_resposta['message'] == mensagem_esperada
 
         case 400:
-            print('username fornecido incorretamente')
+            print('username fornecido incorretamente!')
 
         case 404:
-            print('usuário não encontrado')
+            print('usuário não encontrado!')
+
 
